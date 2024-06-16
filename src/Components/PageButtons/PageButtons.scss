@@ -1,0 +1,33 @@
+.page-buttons {
+  position: absolute; /* Position the buttons absolutely */
+  bottom: 360px; /* Adjust the top position as needed */
+  right: 20px; /* Align the buttons to the right */
+}
+
+.page-button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: none;
+  background-color: #04315b;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page-button:hover {
+  background-color: #00213e;
+}
+
+.page-button.active {
+  background-color: #faf9f6;
+  color: #04315b;
+}
+
+.page-button.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

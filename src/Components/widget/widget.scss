@@ -1,0 +1,40 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 20px;
+  background-color: #04315b;
+  border-radius: 10px;
+  color: #faf9f6;
+  height: 120px; // Adjust height if necessary
+  width: 100%;
+  max-width: 300px; // Ensure consistent width for widgets
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .title {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .bottom {
+      display: flex;
+      align-items: center;
+
+      .counter {
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      .type {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.welcomeWidget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #04315b;
+    border-radius: 20px;
+    color: #faf9f6;
+    width: 100%;
+  
+    .date {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+  
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 15px;
+    }
+  }
+  

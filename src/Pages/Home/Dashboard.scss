@@ -1,0 +1,64 @@
+.home {
+    display: flex;
+
+    .homeContainer {
+        flex: 6;
+
+        .widgets {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .welcomewidget {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+}
+
+.centra {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(4, 49, 91, 1);
+    margin-top: 20px; /* Adjust the value as needed */
+    margin-left: 40px;
+}
+
+.centra1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(4, 49, 91, 1); /* Different color for distinction */
+    margin-top: 20px; /* Adjust the value as needed */
+    margin-left: 40px;
+}
+
+.map-container {
+    background-color: rgba(4, 49, 91, 1);
+    padding: 10px; /* Reduced padding */
+    margin-top: 10px;
+    border-radius: 1rem; /* Increase the border-radius for curvier edges */
+    border: 2px solid black;
+    width: 97%; /* Adjust the width to make the container smaller */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+    height: 325px; /* Adjust the height as needed */
+}
+
+.map-container1 {
+    background-color: rgb(214, 215, 217);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 1rem; /* Increase the border-radius for curvier edges */
+    width: 97%; /* Adjust the width to make the container smaller */
+    margin-left: auto; /* Center the container horizontally */
+    height: 325px;
+    margin-right: auto; /* Center the container horizontally */
+}
+
+#map,
+#map1 {
+    width: 100%; /* Ensure the map takes the full width of the container */
+    height: 100%; /* Ensure the map takes the full height of the container */
+}
